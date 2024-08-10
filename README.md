@@ -1,1 +1,1 @@
-# c-prog-lang
+# C Programming Language (2nd Edition) Solutions
