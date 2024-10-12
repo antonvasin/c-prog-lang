@@ -19,7 +19,7 @@ int main()
 int getln(char s[], int max)
 {
   int i, c;
-  for (i=0; (c=getchar()) != EOF &c!='\n'; ++i) {
+  for (i=0; (c=getchar()) != EOF && c != '\n'; ++i) {
     if (i < max-1) s[i] = c;
   }
   if (c == '\n') {

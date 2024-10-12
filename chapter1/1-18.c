@@ -18,7 +18,7 @@ int getln(char s[], int max)
 {
   int i, c;
   int tc = -1;
-  for (i=0; (c=getchar()) != EOF &c!='\n'; ++i) {
+  for (i=0; (c=getchar()) != EOF && c != '\n'; ++i) {
     if (c == '\t' || c == ' ') {
       /* mark potential position for new end of line */
       if (tc == -1) {
